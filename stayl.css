@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://dl2.glitter-graphics.net/pub/1242/1242542cmpaqu89q4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px;
+}
+.time {
+  font-size: 13vw;
+  font-family: "Oswald", sans-serif;
+}
+
+@keyframes colorChange {
+  0% {
+    color: rgb(0, 244, 219);
+  }
+  25% {
+    color: rgb(94, 113, 255);
+  }
+  50% {
+    color: rgb(111, 152, 222);
+  }
+  75% {
+    color: rgb(28, 116, 210);
+  }
+  100% {
+    color: rgb(0, 244, 219);
+  }
+}
+
+.color-change {
+  animation: colorChange 5s infinite;
+
+  font-weight: bold;
+  text-align: center;
+}
+
+#hafta-kuni {
+  font-family: "Nerko One", cursive;
+  font-size: 5vh;
+  color: #fff;
+}
+
+#oy-nomi {
+  margin-bottom: 10px;
+  font-family: "Nerko One", cursive;
+  font-size: 5vh;
+  color: #fff;
+}
+.p {
+  margin-bottom: 10px;
+  font-family: "Nerko One", cursive;
+  font-size: 4vh;
+  color: #fff;
+}
+#inson-ismi {
+  font-size: 6vh;
+  color: red;
+}
